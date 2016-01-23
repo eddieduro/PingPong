@@ -1,3 +1,9 @@
+/*=======
+HTML
+=========*/
+html {
+	overflow-x: hidden; 
+}
 /*=========
 Buttons
 ===========*/
@@ -6,11 +12,13 @@ Buttons
 	display:none;
 	background-color: #f0b699;
 	margin-top: 20px;
+	font-size: 16pt;
 }
 
 .btn-submit {
 	background-color: #f0b699;
 	margin-top: 20px;
+	font-size: 16pt;
 }
 
 .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
@@ -112,11 +120,33 @@ hr#hero-hr:after{
     font-family: FontAwesome;
     font-size: 2em;
 }
+
+/*=========
+Sidebar
+==========*/
+.sidebar-right{
+	float: right;
+	height: 450px;
+	width: 170px;
+	color: white;
+	background-color: black;
+}
+
+#side-hr {
+	max-width: 100px;
+	margin-left: 1px;
+}
 /*==========
 Form
 ============*/
+form {
+	padding-left: 100px;
+}
 label {
-	padding-top: 50px;
+	padding-top: 120px;
+	display: block;
+	padding-bottom: 50px;
+	font-size: 20pt;
 }
 /*========
 Results
@@ -124,4 +154,33 @@ Results
 
 #results {
 	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*========
+Footer
+==========*/
+
+.footer-bg {
+	height: 10px;
+	width: 100%;
+	background-color: #404040;
+}
+
+.footer {
+	height: 110px;
+	width: 100%;
+	background-color: #333;
+}
+
+.footer-text {
+	margin-top: 80px;
+	color: white;
+}
+
+footer {
+	top: 200px;
+}
+#heart {
+	color: red;
 }
