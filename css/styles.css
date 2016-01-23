@@ -13,6 +13,49 @@ Buttons
 	margin-top: 20px;
 }
 
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 3px; 
+	border-bottom-right-radius: 3px; 
+}
+
+.btn-group>.btn:last-child:not(:first-child) {
+	border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.btn-submit {
+    color: white;
+    border-color: #fff;
+}
+
+.btn-submit:hover {
+    color: white;
+    background-color: #e9935e;
+    border-color: #fff;
+}
+
+.btn-submit:active {
+    color: white;
+    background-color: #e9935e;
+    border-color: #fff;
+}
+
+.btn-refresh {
+    color: white;
+    border-color: #fff;
+}
+
+.btn-refresh:hover {
+    color: white;
+    background-color: #e9935e;
+    border-color: #fff;
+}
+
+.btn-refresh:active {
+    color: white;
+    background-color: #e9935e;
+    border-color: #fff;
+}
 /*=========
 Nav
 ==========*/
@@ -23,6 +66,10 @@ Nav
 }
 .navbar-default .navbar-brand {
 	color: white;
+}
+
+.navbar-brand {
+	padding: 8px 15px;
 }
 /*=========
 Hero Section
@@ -35,7 +82,7 @@ Hero Section
 }
 
 .hero h1 {
-	padding-top: 150px;
+	padding-top: 100px;
 	color: white;
 	font-size: 60pt;
 }
