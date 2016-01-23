@@ -27,7 +27,14 @@ $(document).ready(function(){
     var results = pingPong(num);
 
 
-    $('#results').append(results);
+      $('#results').append(results);
+      $('.btn-refresh').toggle();
+      $('.btn-submit').toggle();
     event.preventDefault();
   });
+
+  $('.btn-refresh').click(function(){
+    window.location.reload();
+  });
+
 });
