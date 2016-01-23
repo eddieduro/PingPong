@@ -27,7 +27,7 @@ $(document).ready(function(){
     var results = pingPong(num);
 
 
-      $('#results').append(results);
+      $('#results').append('<p class="text-center">' + results + '</p>');
       $('.btn-refresh').toggle();
       $('.btn-submit').toggle();
     event.preventDefault();

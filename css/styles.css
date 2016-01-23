@@ -1,3 +1,80 @@
+/*=========
+Buttons
+===========*/
+
 .btn-refresh {
 	display:none;
+	background-color: #f0b699;
+	margin-top: 20px;
+}
+
+.btn-submit {
+	background-color: #f0b699;
+	margin-top: 20px;
+}
+
+/*=========
+Nav
+==========*/
+.navbar-default {
+	background-color: #646464;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-default .navbar-brand {
+	color: white;
+}
+/*=========
+Hero Section
+===========*/
+.hero {
+	background-color: #fd724e;
+	height: 400px;
+	width: 100%;
+	margin-top: -20px;	
+}
+
+.hero h1 {
+	padding-top: 150px;
+	color: white;
+	font-size: 60pt;
+}
+
+.hero h3 {
+	color: white;
+}
+hr#hero-hr {
+	max-width: 380px;
+    margin: 25px auto 30px;
+    padding: 0;
+    border: 0;
+    border-top: solid 5px white;
+    text-align: center;
+}
+hr#hero-hr:after {
+    color: #fff;
+    background-color: #fd724e;
+}
+
+hr#hero-hr:after{
+	content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+/*==========
+Form
+============*/
+label {
+	padding-top: 50px;
+}
+/*========
+Results
+==========*/
+
+#results {
+	padding-top: 50px;
 }
